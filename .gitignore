@@ -1,0 +1,34 @@
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Python cache / compiled files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Runtime data (DO NOT COMMIT)
+# =========================
+data/*.db
+logs/*.log
+output/*.json
+
+# =========================
+# Editor / OS junk
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
